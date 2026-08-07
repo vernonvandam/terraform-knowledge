@@ -30,6 +30,7 @@ All notable changes to this repository are documented here.
 - Output
 - Data Sources
 - Count
+- For-Each
 
 ### Changed
 
