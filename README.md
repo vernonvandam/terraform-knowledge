@@ -1,15 +1,23 @@
 # Terraform Knowledge
 
-A structured knowledge base for Terraform concepts, patterns, best practices, and reusable examples.
+A practical, vendor-neutral handbook for designing, reviewing, and operating Terraform configurations.
 
-## Repository Structure
+Start with the [documentation index](docs/README.md), follow the [Terraform standards](TERRAFORM-STANDARDS.md), review the [version and provider assumptions](docs/06-project-structure/version-and-provider-assumptions.md), and reuse the [patterns library](patterns/README.md).
 
-- `docs/` — Terraform concepts and reference material
-- `patterns/` — Reusable implementation patterns
-- `examples/` — Working Terraform examples
-- `.github/` — CI/CD and GitHub templates
+## Repository structure
 
-## Purpose
+| Area | Purpose |
+| --- | --- |
+| `docs/` | Explanations and reference guidance, from fundamentals to advanced topics. |
+| `patterns/` | Reusable approaches with context and trade-offs. |
+| `examples/` | Small, executable configurations. |
+| `.github/` | Automation for documentation and examples. |
 
-This repository is vendor-neutral. Terraform-specific knowledge belongs here; provider- or platform-specific implementations should live in their respective repositories.
-#
+## Learning path
+
+1. Read the [fundamentals](docs/01-fundamentals/README.md).
+2. Learn the language, modules, and state.
+3. Apply the repository standards to a real configuration.
+4. Start with the [basic example](examples/basics/README.md).
+
+This is Terraform-focused and provider-neutral. Provider-specific configuration and credentials belong with the platform they manage. Content is checked on every pull request and push to `main`.

@@ -1,23 +1,21 @@
 # Roadmap
 
-## Phase 1 â€” Foundation
+## Phase 1 — Foundation
 
-- [ ] Document Terraform fundamentals
-- [ ] Document Terraform language features
-- [ ] Establish module design standards
-- [ ] Establish state management guidance
-- [ ] Establish project structure standards
+- [x] Publish a repository entry point and documentation index
+- [x] Document Terraform fundamentals and lifecycle
+- [x] Establish Terraform engineering standards
+- [x] Establish Terraform and provider version assumptions
+- [x] Add a basic executable example and automated checks
+- [ ] Expand language, module, and state guidance
 
-## Phase 2 â€” Patterns
+## Phase 2 — Patterns
 
-- [ ] Add reusable Terraform patterns
-- [ ] Add CSV-driven resource examples
-- [ ] Add module composition examples
-- [ ] Add multi-environment examples
+- [x] Add foundational reusable Terraform patterns
+- [x] Add CSV-driven resource guidance
+- [ ] Add provider-alias, import, and address-refactoring patterns
 
-## Phase 3 â€” Engineering Practices
+## Phase 3 — Engineering Practices
 
-- [ ] Add testing guidance
-- [ ] Add CI/CD guidance
-- [ ] Add security and secrets guidance
-- [ ] Add troubleshooting reference
+- [x] Add baseline formatting, validation, testing, and Markdown checks
+- [ ] Add security scanning, dependency updates, CI/CD design, secrets, and troubleshooting guidance
