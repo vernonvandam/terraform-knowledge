@@ -6,6 +6,7 @@ All notable changes to this repository are documented here.
 
 ### Added
 
+- Complete Terraform language reference covering variables, locals, outputs, expressions, functions, conditionals, iteration, and dynamic blocks.
 - Documentation navigation and a first fundamentals learning path.
 - Terraform 1.15.x and provider dependency assumptions.
 - Reusable patterns for iteration, data normalisation, modules, environments, and dependencies.

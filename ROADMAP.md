@@ -7,7 +7,8 @@
 - [x] Establish Terraform engineering standards
 - [x] Establish Terraform and provider version assumptions
 - [x] Add a basic executable example and automated checks
-- [ ] Expand language, module, and state guidance
+- [x] Expand Terraform language guidance
+- [ ] Expand module and state guidance
 
 ## Phase 2 — Patterns
 
