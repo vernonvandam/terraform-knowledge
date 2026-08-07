@@ -8,7 +8,7 @@
 - [x] Establish Terraform and provider version assumptions
 - [x] Add a basic executable example and automated checks
 - [x] Expand Terraform language guidance
-- [ ] Expand module and state guidance
+- [x] Expand module and state guidance
 
 ## Phase 2 — Patterns
 

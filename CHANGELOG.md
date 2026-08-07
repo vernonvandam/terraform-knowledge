@@ -6,6 +6,8 @@ All notable changes to this repository are documented here.
 
 ### Added
 
+- Module reference covering structure, design, contracts, composition, and versioning.
+- State reference covering remote backends, locking, migration, imports, and operational state commands.
 - Complete Terraform language reference covering variables, locals, outputs, expressions, functions, conditionals, iteration, and dynamic blocks.
 - Documentation navigation and a first fundamentals learning path.
 - Terraform 1.15.x and provider dependency assumptions.
