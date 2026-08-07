@@ -6,6 +6,9 @@ All notable changes to this repository are documented here.
 
 ### Added
 
+- Provider reference covering configuration, versioning, aliases, and authentication.
+- Project-structure reference covering repository layout, environments, naming, and configuration management.
+- Terraform CLI reference covering init, fmt, validate, plan, apply, destroy, and console.
 - Module reference covering structure, design, contracts, composition, and versioning.
 - State reference covering remote backends, locking, migration, imports, and operational state commands.
 - Complete Terraform language reference covering variables, locals, outputs, expressions, functions, conditionals, iteration, and dynamic blocks.

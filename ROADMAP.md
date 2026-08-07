@@ -9,6 +9,7 @@
 - [x] Add a basic executable example and automated checks
 - [x] Expand Terraform language guidance
 - [x] Expand module and state guidance
+- [x] Add provider, project structure, and CLI guidance
 
 ## Phase 2 — Patterns
 
