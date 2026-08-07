@@ -22,6 +22,11 @@ All notable changes to this repository are documented here.
 - A runnable basics example with a Terraform test.
 - GitHub Actions checks for Markdown and Terraform examples.
 
+## Examples
+
+- Basic resources
+- Variables
+
 ### Changed
 
 - Expanded the README, contribution guidance, engineering standards, and roadmap from the initial scaffold.
