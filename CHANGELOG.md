@@ -33,6 +33,7 @@ All notable changes to this repository are documented here.
 - For-Each
 - Dynamic Blocks
 - Modules
+- Workspaces
 
 ### Changed
 
