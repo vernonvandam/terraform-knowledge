@@ -37,6 +37,7 @@ All notable changes to this repository are documented here.
 - Import Blocks
 - Moved Blocks
 - Check Blocks
+- Lifecycle
 
 ### Changed
 
