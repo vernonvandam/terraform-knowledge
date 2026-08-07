@@ -34,6 +34,9 @@ All notable changes to this repository are documented here.
 - Dynamic Blocks
 - Modules
 - Workspaces
+- Import Blocks
+- Moved Blocks
+- Check Blocks
 
 ### Changed
 
