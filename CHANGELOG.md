@@ -32,6 +32,7 @@ All notable changes to this repository are documented here.
 - Count
 - For-Each
 - Dynamic Blocks
+- Modules
 
 ### Changed
 
