@@ -6,6 +6,10 @@ All notable changes to this repository are documented here.
 
 ### Added
 
+- Best practices, seurity and secrets handling.
+- Troubelshooting resources added to address drift, state problems and common errors.
+- Advanced concepts covering workspaces, dependencies and lifecycle.
+- CI/CD, testing and vlaidation processes.
 - Provider reference covering configuration, versioning, aliases, and authentication.
 - Project-structure reference covering repository layout, environments, naming, and configuration management.
 - Terraform CLI reference covering init, fmt, validate, plan, apply, destroy, and console.
