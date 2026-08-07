@@ -31,6 +31,7 @@ All notable changes to this repository are documented here.
 - Data Sources
 - Count
 - For-Each
+- Dynamic Blocks
 
 ### Changed
 

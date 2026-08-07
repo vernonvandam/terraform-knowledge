@@ -1,0 +1,17 @@
+network_rules = [
+  {
+    name     = "allow-web"
+    priority = 100
+    action   = "Allow"
+  },
+  {
+    name     = "allow-api"
+    priority = 200
+    action   = "Allow"
+  },
+  {
+    name     = "deny-all"
+    priority = 999
+    action   = "Deny"
+  }
+]
