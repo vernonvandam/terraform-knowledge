@@ -1,4 +1,4 @@
-name: Terraform Checks
+name: Terraform checks
 
 on:
   pull_request:
@@ -6,11 +6,34 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   terraform:
+    name: Format, validate, and test examples
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: hashicorp/setup-terraform@v3
-      - name: Terraform Format Check
+      - uses: hashicorp/setup-terraform@v4
+        with:
+          terraform_version: 1.15.8
+          terraform_wrapper: false
+      - name: Check Terraform formatting
         run: terraform fmt -check -recursive
+      - name: Initialise and validate Terraform roots
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r directory; do
+            echo "Validating $directory"
+            (cd "$directory" && terraform init -backend=false -input=false && terraform validate -no-color)
+          done < <(find . -type f -name '*.tf' -not -path '*/.terraform/*' -printf '%h\n' | sort -u)
+      - name: Run Terraform tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r directory; do
+            echo "Testing $directory"
+            (cd "$directory" && terraform test -no-color)
+          done < <(find . -type f -name '*.tftest.hcl' -printf '%h\n' | sort -u)
