@@ -1,0 +1,1 @@
+# Dependency Management\n\nPattern documentation to be developed.\n

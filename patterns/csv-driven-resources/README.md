@@ -1,0 +1,1 @@
+# Csv Driven Resources\n\nPattern documentation to be developed.\n

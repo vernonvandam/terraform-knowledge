@@ -1,0 +1,1 @@
+# Flattening\n\nPattern documentation to be developed.\n

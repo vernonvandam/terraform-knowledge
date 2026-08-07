@@ -1,0 +1,1 @@
+# For Each\n\nPattern documentation to be developed.\n
