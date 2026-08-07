@@ -27,7 +27,9 @@ All notable changes to this repository are documented here.
 - Basic resources
 - Variables
 - Locals
-- Outputs
+- Output
+- Data Sources
+
 
 ### Changed
 
